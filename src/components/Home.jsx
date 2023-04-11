@@ -9,8 +9,8 @@ const Home = () => {
     className='h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white via-black '>
 
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center h-full '>
-                <h2 className="text-2xl sm:text-4xl font-bold  text-white">Welcome To My Journey! 😃 </h2>
+            <div className="flex flex-col justify-center h-screen" >
+                <h2 className="mt-40 text-4xl sm:text-4xl font-bold flex flex-col text-white">Welcome To My Journey! 😃 </h2>
                 <p className=' text-gray-500 py-4 max-w-md'>
                     As a fresher I know programming languages like Java, SQL, HTML, CSS, JavaScript.
                     I love to develop webapps using ReactJS and technologies like TailwindCSS, BootStrap, etc.<br/>
@@ -29,8 +29,8 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div>
-              <img   src={HeroImage } alt="my profile pic" className="rounded-2xl mx-auto w-2/5 md:w-full hover:scale-105 duration-200 "/>
+            <div >
+              <img  src={HeroImage}  alt="my profile pic" className=" rounded-2xl mx-auto w-2/5  md:w-4/5 hover:scale-105 duration-200 cursor-pointer"/>
             </div>
         </div>
     </div>

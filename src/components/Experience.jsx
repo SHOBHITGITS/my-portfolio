@@ -5,10 +5,11 @@ import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
 //can also add MySQL, etc and MONGO DB
-//import java from '../assets/java.png'
+import java from '../assets/java.png'
+import mysql from '../assets/mysql.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
-//import bootstrap from '../assets/bootstrap.png'
+import bootstrap from '../assets/bootstrap.png'
 
 const Experience = () => {
 
@@ -61,13 +62,33 @@ const Experience = () => {
         title: 'GitHub',
         style: "shadow-gray-400"
        },
+       {
+        id:7,
+        src:java,
+        title: 'Java',
+        style: "shadow-orange-400"
+       },
+       {
+        id:8,
+        src:mysql,
+        title: 'MySQL',
+        style: "shadow-blue-600"
+       },
+       {
+        id:9,
+        src:bootstrap,
+        title: 'Bootstrap',
+        style: "shadow-violet-400"
+       },
     ]
 
   return (
-    <div name="experience" className="bg-gradient-to-b from-gray-800 to to-black w-full h-screen">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+    <div 
+        name="experience" 
+        className="bg-gradient-to-b from-gray-800 to to-black w-full h-screen">
+      <div className="pt-40 max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-            <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>
+            <p className=" text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>
             <p className="py-6">Technologies I have worked till now...</p>
         </div>
 

@@ -14,7 +14,7 @@ const About = () => {
             Here is my first ever Portfolio WebApp. This is just a beginning of a newer version of me.
             I have learned a lot and still improving myself.
             Your feedbacks and suggestions are always welcome. <br/>
-            If you are an employer, I must say I will my best to grow your organisation. This portfolio shows all the present and previous technologies that I've worked with.
+            If you are an employer, I must say I will give my best to grow your organisation. This portfolio shows all the present and previous technologies that I've worked with.
         </p>
 
         <br/>
@@ -22,7 +22,7 @@ const About = () => {
         <p className='text-xl pb-16'>
         I am looking for a opportunity in software development field where I can put my best efforts.
 I am a enthusiastic problem solver with good knowledge of Data Structures and Algorithms, Java programming, and SQL.
-I also have knowlegde web development using MERN Stack.
+I also have knowlegde of web development using MERN Stack.
 Apart from all these, I love to play flute in my spare time and writing poems.
 <br/>
 Thanks!
