@@ -11,6 +11,9 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className="flex flex-col justify-center h-screen" >
                 <h2 className="mt-40 text-4xl sm:text-4xl font-bold flex flex-col text-white">Welcome To My Journey! 😃 </h2>
+                <svg class="animate-bounce w-6 h-6 ...">
+  
+</svg>
                 <p className=' text-gray-500 py-4 max-w-md'>
                     As a fresher I know programming languages like Java, SQL, HTML, CSS, JavaScript.
                     I love to develop webapps using ReactJS and technologies like TailwindCSS, BootStrap, etc.<br/>
