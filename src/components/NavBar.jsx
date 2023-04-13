@@ -25,6 +25,10 @@ const NavBar = () => {
     },
     {
       id:5,
+      link:'skills',
+    },
+    {
+      id:6,
       link:'contact',
     },
   ];
@@ -33,7 +37,7 @@ const NavBar = () => {
     <div className='flex justify-between items-center w-full h-20 text-white bg-black fixed px-4'>
         <div>
           <h1 className='text-5xl font-signature ml-2 
-          mt-7 cursor-pointer'>Shobhit Srivastava</h1>
+          mt-5 cursor-pointer'>Shobhit Srivastava</h1>
         </div>
 
         <ul className='hidden md:flex'>
