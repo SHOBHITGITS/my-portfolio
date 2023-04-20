@@ -42,7 +42,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:'/Shobhit_Srivastava_Resume.pdf',
+            href:'/Shobhit_Srivastava_CV.pdf',
             style:'rounded-br-md',
             download:true,
         },
