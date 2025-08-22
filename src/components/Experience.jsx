@@ -10,36 +10,64 @@ import mysql from '../assets/mysql.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 import bootstrap from '../assets/bootstrap.png'
+import microservices from '../assets/microservices.png'
+import springsecurity from '../assets/springsecurity.png'
+import springboot from '../assets/springboot.png'
+import postgresql from '../assets/postgresql.png'
 
 const Experience = () => {
 
     const techs=[
        {
-        id:1,
+            id:1,
+            src:springboot,
+            title: 'SpringBoot',
+            style: "shadow-green-400"
+        },
+        {
+            id:2,
+            src:microservices,
+            title: 'Microservices',
+            style: "shadow-blue-600"
+        },
+        {
+            id:3,
+            src:springsecurity,
+            title: 'SpringSecurity',
+            style: "shadow-green-200"
+        },
+        {
+            id:4,
+            src:postgresql,
+            title: 'PostgreSQL',
+            style: "shadow-blue-500"
+        },
+        {
+        id:5,
         src:html,
         title: 'HTML',
         style: "shadow-orange-500"
        },
        {
-        id:2,
+        id:6,
         src:css,
         title: 'CSS',
         style: "shadow-blue-500"
        },
        {
-        id:3,
+        id:7,
         src:javascript,
         title: 'JavaScript',
         style: "shadow-yellow-500"
        },
        {
-        id:4,
+        id:8,
         src:reactImage,
         title: 'React',
         style: "shadow-blue-600"
        },
        {
-        id:5,
+        id:9,
         src:tailwind,
         title: 'Tailwind CSS',
         style: "shadow-sky-400"
@@ -57,29 +85,30 @@ const Experience = () => {
         //     style: "shadow-orange-500"
         //    },
        {
-        id:6,
+        id:10,
         src:github,
         title: 'GitHub',
         style: "shadow-gray-400"
        },
        {
-        id:7,
+        id:11,
         src:java,
         title: 'Java',
         style: "shadow-orange-400"
        },
        {
-        id:8,
+        id:12,
         src:mysql,
         title: 'MySQL',
         style: "shadow-blue-600"
        },
        {
-        id:9,
+        id:13,
         src:bootstrap,
         title: 'Bootstrap',
         style: "shadow-violet-400"
        },
+
     ]
 
   return (
