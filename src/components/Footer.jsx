@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
             <p className="items-center justify-center ">
             Copyright@ Shobhit Srivastava<br/>
-            2023-2024
+            2025-2026
             </p>
         
       </div>

@@ -13,9 +13,10 @@ const Home = () => {
                 <h2 className="mt-40 text-4xl sm:text-4xl font-bold flex flex-col text-white">Welcome To My Journey! 😃 </h2>
                 
                 <p className=' text-gray-500 py-4 max-w-md'>
-                    As a fresher I know programming languages like Java, SQL, HTML, CSS, JavaScript.
-                    I love to develop webapps using ReactJS and technologies like TailwindCSS, BootStrap, etc.<br/>
-                    I am learning a lot of amazing stuffs to explore in my journey.
+                    Java Developer with 2 years of experience in building scalable applications using Spring Boot,
+                    Hibernate, and REST APIs. Skilled in PostgreSQL/MySQL and front-end integration with ReactJS, Bootstrap,
+                    and JavaScript. Passionate about clean code, Agile practices, and continuous learning to deliver
+                    efficient, user-focused solutions.
                 </p>
                 <div>
                     <Link 

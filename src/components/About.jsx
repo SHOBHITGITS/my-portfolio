@@ -20,10 +20,14 @@ const About = () => {
         <br/>
 
         <p className='text-xl pb-16'>
-        I am looking for a opportunity in software development field where I can put my best efforts.
-I am a enthusiastic problem solver with good knowledge of Data Structures and Algorithms, Java programming, and SQL.
-I also have knowlegde of web development using MERN Stack.
-Apart from all these, I love to play flute in my spare time and writing poems.
+            I’m a Java Developer who loves turning ideas into applications. With 2 years of professional experience,
+            I’ve worked on ERP modules, authentication systems, and real-time applications. My core expertise lies in
+            Java, Spring Boot, Microservices Hibernate, REST APIs, and database systems like PostgreSQL and MySQL. On the front end, I
+            work with ReactJS, JSP, Bootstrap, Tailwind CSS, and JavaScript to create user-friendly interfaces. I believe in
+            writing clean, efficient code and following Agile practices to deliver impactful solutions. I’m constantly
+            exploring new technologies such as Spring Security, Microservices, and AWS to enhance my skills and build
+            scalable, modern applications.
+            Apart from all these, I love to play flute in my spare time and writing poems.
 <br/>
 Thanks!
         </p>
