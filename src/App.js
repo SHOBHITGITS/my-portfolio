@@ -7,12 +7,14 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Footer from './components/Footer';
+import CareerJourney from './components/CareerJourney';
 function App() {
   return (
     <div>
       <NavBar/>
       <Home/>
       <About/>
+      <CareerJourney/>
       <Portfolio/>
       <Experience/>
       <Skills/>
