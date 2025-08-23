@@ -20,7 +20,7 @@ const Home = () => {
                     <p className="text-gray-300 py-4 max-w-md text-lg leading-relaxed">
                         <Typewriter
                             words={[
-                                "Java Developer with 2 years of experience in building scalable applications using Spring Boot, Hibernate, and REST APIs. Skilled in PostgreSQL/MySQL and front-end integration with ReactJS, Bootstrap, and JavaScript. Passionate about clean code, Agile practices, and continuous learning to deliver efficient, user-focused solutions."
+                                "Software Development Engineer with 2 years of experience in building scalable applications using Spring Boot, Hibernate, and REST APIs. Skilled in PostgreSQL/MySQL and front-end integration with ReactJS, Bootstrap, and JavaScript. Passionate about clean code, Agile practices, and continuous learning to deliver efficient, user-focused solutions."
                             ]}
                             loop={false}      // only once
                             typeSpeed={35}    // speed of typing
