@@ -1,0 +1,12 @@
+@keyframes flickerGlow {
+    0%, 100% {
+        text-shadow: none;
+    }
+    50% {
+        text-shadow: 0 0 5px #00fff0, 0 0 10px #00fff0, 0 0 20px #00fff0, 0 0 40px #00fff0;
+    }
+}
+
+.glow {
+    animation: flickerGlow 1.5s infinite;
+}
