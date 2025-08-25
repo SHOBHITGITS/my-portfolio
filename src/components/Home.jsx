@@ -24,7 +24,7 @@ const Home = () => {
       flex flex-col md:flex-row items-center justify-between
       px-4 gap-10
       py-10" >
-                {/* LEFT CONTENT (always on top in mobile-view) */}
+                {/* LEFT CONTENT (always on top in mobile) */}
                 <div className="flex flex-col justify-center w-full md:w-1/2 order-1 md:order-none">
                     <h2 className="text-2xl sm:text-3xl font-bold text-white text-center md:text-left">
                         Welcome To My Journey! 😃
