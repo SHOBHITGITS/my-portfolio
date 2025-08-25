@@ -6,7 +6,7 @@ const CareerJourney = () => {
     const journey = [
         {
             year: "2023.08 – Present",
-            title: "Junior Software Developer",
+            title: "Software Development Engineer",
             company: "VasyERP Solutions",
             description:
                 "Worked on ERP modules, authentication with Spring Security, reports, and integrations with Shopify/WooCommerce.",
@@ -23,7 +23,7 @@ const CareerJourney = () => {
         {
             year: "2021.12 – 2023.07",
             title: "MCA",
-            company: "HBTU",
+            company: "Harcourt Butler Technical University, Kanpur",
             description: "Focused on Java, DBMS, and software engineering concepts.",
             icon: "🎓",
         },
@@ -138,34 +138,29 @@ const CareerJourney = () => {
                                     {step.icon}
                                 </div>
 
-                                {/* Card with mobile-friendly hover/tap */}
                                 <motion.div
-                                    className="p-6 rounded-2xl
-                  bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400
-                  text-white shadow-xl border border-white/20 flex-1 relative overflow-hidden
-                  transition-all duration-300"
+                                    className="p-6 rounded-xl
+    bg-gray-800
+    text-white shadow-md border border-blue-500/30 flex-1 relative overflow-hidden
+    transition-all duration-300"
                                     whileHover={{
-                                        scale: 1.08,
-                                        boxShadow: "0px 0px 30px rgba(255,165,0,0.7)",
+                                        scale: 1.04,
+                                        boxShadow: "0px 6px 20px rgba(59,130,246,0.35)", // subtle blue glow
                                     }}
                                     whileTap={{
-                                        scale: 1.05,
-                                        boxShadow: "0px 0px 25px rgba(255,165,0,0.5)",
+                                        scale: 1.02,
+                                        boxShadow: "0px 4px 15px rgba(59,130,246,0.25)",
                                     }}
                                 >
-                                    <div className="absolute inset-0 bg-white/10 backdrop-blur-sm rounded-2xl transition-opacity duration-300 opacity-0 hover:opacity-20"></div>
-
                                     <div className="relative z-10">
-                    <span className="text-sm font-semibold text-yellow-200">
-                      {step.year}
-                    </span>
+                                        <span className="text-sm font-semibold text-blue-400">{step.year}</span>
                                         <h3 className="text-lg font-bold">{step.title}</h3>
-                                        <h4 className="text-md font-medium text-green-100">
-                                            {step.company}
-                                        </h4>
-                                        <p className="mt-2 text-gray-100 text-sm">{step.description}</p>
+                                        <h4 className="text-md font-medium text-gray-300">{step.company}</h4>
+                                        <p className="mt-2 text-gray-400 text-sm">{step.description}</p>
                                     </div>
                                 </motion.div>
+
+
                             </motion.div>
                         ))}
                     </div>
