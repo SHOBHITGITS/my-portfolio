@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
-import '../NavBar.css' // we will put custom glow animation here
+import {Typewriter} from "react-simple-typewriter";
+import '../NavBar.css' // for glow effect
+
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
@@ -20,7 +22,18 @@ const NavBar = () => {
         <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed px-4 z-50">
             <div>
                 <h1 className="text-3xl font-signature ml-2 mt-6 cursor-pointer glow">
-                    Shobhit Srivastava
+
+                    <span className="text-3xl font-signature ml-2 mt-6 cursor-pointer glow">
+                        <Typewriter
+                            words={["Shobhit Srivastava","Engineer", "Coder", "Thinker"]}
+                            loop={0} // infinite
+                            cursor
+                            cursorStyle="..."
+                            typeSpeed={80}
+                            deleteSpeed={60}
+                            delaySpeed={1500}
+                        />
+                      </span>
                 </h1>
             </div>
 
