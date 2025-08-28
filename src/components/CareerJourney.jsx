@@ -96,7 +96,7 @@ const CareerJourney = () => {
 
     return (
         <section
-            id="careerjourney"
+            id="career journey"
             ref={sectionRef}
             className="pt-32 pb-20 md:pt-40 md:pb-32 px-6 bg-gradient-to-b from-black via-gray-900 to-gray-800"
         >

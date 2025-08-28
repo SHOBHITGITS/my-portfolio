@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Footer from './components/Footer';
 import CareerJourney from './components/CareerJourney';
 import ScrollToTop from './components/ScrollToTop';
+import TicTacToe from "./components/TicTacToe";
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
       <Portfolio/>
       <Experience/>
       <Skills/>
+      <TicTacToe/>
       <Contact/>
       <Footer/>
       <SocialLinks/>
