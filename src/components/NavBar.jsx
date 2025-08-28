@@ -12,10 +12,11 @@ const NavBar = () => {
         { id: 1, link: 'home' },
         { id: 2, link: 'about' },
         { id: 3, link: 'portfolio' },
-        { id: 4, link: 'careerjourney' },
+        { id: 4, link: 'career journey' },
         { id: 5, link: 'experience' },
         { id: 6, link: 'skills' },
-        { id: 7, link: 'contact' },
+        { id: 7, link: 'play game' },
+        { id: 8, link: 'contact' },
     ];
 
     return (
